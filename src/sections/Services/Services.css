@@ -1,0 +1,48 @@
+.services__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+
+   
+}
+
+.card.services{
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    
+}
+
+.service__icon{
+padding: 0.6rem;
+border-radius: var(--border-radius-3);
+font-size: 1.5rem;
+color: var(--color-white);
+
+}
+
+
+.service__details h4{
+    margin-bottom: 1rem;
+}
+
+.services h2{
+    margin-bottom: 1rem;
+}
+
+
+/* 
+MEDIA QUERIES FOR TABLET  */
+
+@media screen and (max-width: 1024px) {
+    .services__container{
+        display: grid;
+       gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1024) {
+    .services__container{
+        grid-template-columns: 1fr;
+    }
+}
